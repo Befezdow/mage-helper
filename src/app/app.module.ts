@@ -8,12 +8,14 @@ import { HeaderComponent } from './components/header/header.component';
 import { MatToolbarModule } from '@angular/material';
 import { SpellsModule } from './components/spells/spells.module';
 import { PotionsModule } from './components/potions/potions.module';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageNotFoundComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

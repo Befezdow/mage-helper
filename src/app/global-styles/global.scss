@@ -1,0 +1,12 @@
+$text-color: #E7E7E6;
+
+.page-header {
+  color: $text-color;
+  font-size: x-large;
+  margin-left: 10px;
+}
+
+@font-face {
+  font-family:"Radiant";
+  src: url(src/assets/fonts/Radiant.ttf) format("truetype");
+}

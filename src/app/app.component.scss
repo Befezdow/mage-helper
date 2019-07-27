@@ -1,0 +1,22 @@
+.root {
+  background: #08121B;
+  background: linear-gradient(180deg, #02284a 0%, #252254 100%);
+  min-height: -webkit-calc(100% - 80px);
+  min-height: -moz-calc(100% - 80px);
+  min-height: calc(100% - 80px);
+  height: -webkit-calc(100% - 80px);
+  height: -moz-calc(100% - 80px);
+  height: calc(100% - 80px);
+}
+
+.sub-root {
+  background: url(../assets/images/magic_circle.png) no-repeat 400px 0;
+  background-size: 1500px 1500px;
+  min-height: -webkit-calc(100% - 20px);
+  min-height: -moz-calc(100% - 20px);
+  min-height: calc(100% - 20px);
+  height: -webkit-calc(100% - 20px);
+  height: -moz-calc(100% - 20px);
+  height: calc(100% - 20px);
+  padding: 10px 10px 10px 10px;
+}

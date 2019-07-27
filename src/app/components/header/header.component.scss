@@ -1,0 +1,17 @@
+@import '../../global-styles/global';
+
+.header {
+  height: 80px;
+  background: #021634;
+  color: $text-color;
+  font-family: Radiant, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.brand-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
