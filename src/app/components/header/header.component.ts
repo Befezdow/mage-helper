@@ -8,6 +8,9 @@ import { Router } from '@angular/router';
   encapsulation: ViewEncapsulation.Emulated
 })
 export class HeaderComponent implements OnInit {
+  private currentExp = 100;
+  private maxExp = 500;
+  private currentLevel = 7;
 
   constructor(private router: Router) {
   }

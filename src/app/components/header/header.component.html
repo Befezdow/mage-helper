@@ -2,7 +2,29 @@
   <span class="brand-container">
     <img src="../../../assets/images/brand-image.png" alt="Brand image" width="60px" height="60px"/>
     <span class="m-l-15">
-      MAGE HELPER
+      POCKET MAGE
     </span>
+  </span>
+  <span class="user-info">
+    <span class="user-name">
+      Befezdow
+    </span>
+    <app-level-progress-ring
+      [current]="currentExp"
+      [max]="maxExp"
+      [color]="'white'"
+      [background]="'darkgray'"
+      [radius]="30"
+      [stroke]="5"
+      [semicircle]="false"
+      [rounded]="true"
+      [clockwise]="true"
+      [responsive]="false"
+      [duration]="800"
+      [animation]="'easeInOutQuart'"
+      [animationDelay]="0"
+    >
+      {{currentLevel}}
+    </app-level-progress-ring>
   </span>
 </mat-toolbar>

@@ -2,4 +2,20 @@
   <div class="page-header">
     Spells list
   </div>
+  <mat-grid-list cols="4" rowHeight="4:3">
+    <mat-grid-tile *ngFor="let spell of spellsList">
+      <mat-card>
+        <mat-card-title>
+          {{spell.name}}
+        </mat-card-title>
+        <mat-card-content>
+          {{spell.description}}
+        </mat-card-content>
+        <mat-card-footer class="p-b-10" align="center">
+          Power: {{spell.power}}
+          Mana: {{spell.neededMana}}
+        </mat-card-footer>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>

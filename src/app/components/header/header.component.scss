@@ -4,14 +4,27 @@
   height: 80px;
   background: #021634;
   color: $text-color;
-  font-family: Radiant, sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .brand-container {
+  font-family: ElderMagic, sans-serif;
+  font-size: xx-large;
   display: flex;
   flex-direction: row;
   align-items: center;
   cursor: pointer;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+.user-name {
+  margin-right: 15px;
+  font-size: large;
 }

@@ -4,6 +4,8 @@ export class SpellModel {
   id: string;
   name: string;
   description: string;
-  damage: number;
+  power: number;
+  neededMana: number;
+  neededSchoolLevel: number;
   magicSchool: MagicSchoolModel;
 }

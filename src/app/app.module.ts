@@ -9,6 +9,7 @@ import { MatToolbarModule } from '@angular/material';
 import { SpellsModule } from './components/spells/spells.module';
 import { PotionsModule } from './components/potions/potions.module';
 import { HomeComponent } from './components/home/home.component';
+import { UiKitModule } from './ui-kit/ui-kit.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './components/home/home.component';
     AppRoutingModule,
     MatToolbarModule,
     SpellsModule,
-    PotionsModule
+    PotionsModule,
+    UiKitModule
   ],
   providers: [],
   bootstrap: [AppComponent]

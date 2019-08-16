@@ -5,10 +5,13 @@ export class SpellsMapper {
   public static mapSpellsListResponse(data) {
     return data.map(elem => {
       const result = new SpellModel();
+
       result.id = elem.id;
       result.name = elem.name;
       result.description = elem.description;
-      result.damage = elem.damage;
+      result.power = elem.power;
+      result.neededMana = elem.neededMana;
+      result.neededSchoolLevel = elem.neededSchoolLevel;
 
       result.magicSchool = new MagicSchoolModel();
       result.magicSchool.id = elem.magicSchool.id;
@@ -22,9 +25,12 @@ export class SpellsMapper {
   public static mapMagicSchoolsListResponse(data) {
     return data.map(elem => {
       const result = new MagicSchoolModel();
+
       result.id = elem.id;
       result.name = elem.name;
       result.description = elem.description;
+
+      return result;
     });
   }
 }
