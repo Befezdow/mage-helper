@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SpellsListComponent } from './spells-list/spells-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
-import { MatGridListModule } from '@angular/material/grid-list';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     CommonModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatGridListModule
+    FlexLayoutModule
   ]
 })
 export class SpellsModule { }

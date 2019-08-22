@@ -1,0 +1,22 @@
+<div class="progress-wrapper">
+  <round-progress
+    [current]="current"
+    [max]="max"
+    [color]="color"
+    [background]="background"
+    [radius]="radius"
+    [stroke]="stroke"
+    [semicircle]="semicircle"
+    [rounded]="rounded"
+    [clockwise]="clockwise"
+    [responsive]="responsive"
+    [duration]="duration"
+    [animation]="animation"
+    [animationDelay]="animationDelay"
+    (onRender)="render($event)"
+  ></round-progress>
+
+  <div class="text">
+    <ng-content></ng-content>
+  </div>
+</div>

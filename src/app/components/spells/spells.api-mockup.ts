@@ -19,7 +19,7 @@ export class SpellsApiMockup {
       {
         id: '3ca12691-2bfc-4c4c-bc26-09cbc404d7da',
         name: 'Ice arrow',
-        description: 'Ice arrow which can freeze your enemies',
+        description: 'Ice arrow which can freeze your enemiesыфыфы фыфыыывты влавылаывло талвыталы воало',
         power: 8,
         neededMana: 100,
         neededSchoolLevel: 1,

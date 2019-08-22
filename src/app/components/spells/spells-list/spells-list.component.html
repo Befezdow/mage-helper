@@ -2,13 +2,14 @@
   <div class="page-header">
     Spells list
   </div>
-  <mat-grid-list cols="4" rowHeight="4:3">
-    <mat-grid-tile *ngFor="let spell of spellsList">
+  <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="left">
+    <div fxFlex="20%" *ngFor="let spell of spellsList">
       <mat-card>
         <mat-card-title>
           {{spell.name}}
         </mat-card-title>
-        <mat-card-content>
+        <img mat-card-image src="../../../../assets/images/meteor.png" alt="image" width="256" height="256">
+        <mat-card-content class="content">
           {{spell.description}}
         </mat-card-content>
         <mat-card-footer class="p-b-10" align="center">
@@ -16,6 +17,6 @@
           Mana: {{spell.neededMana}}
         </mat-card-footer>
       </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+    </div>
+  </div>
 </div>
